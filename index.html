@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <!-- CSS FILE -->
     <link rel="stylesheet" href="index.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="first">
@@ -25,6 +28,7 @@
             <div class="right">
                 <div class="photo"></div>
                 <div class="links">
+                    <a href="tel:+48786208026">+48 786 208 026</a>
                     <a href="mailto:fdmisl07@gmail.com">fdmisl07@gmail.com</a>
                     <a href="https://github.com/dmisl">https://github.com/dmisl</a>
                     <a href="https://linkedin.com/in/dmisl">https://linkedin.com/in/dmisl</a>
@@ -38,74 +42,130 @@
         <h1>SKILLS</h1>
 
         <div class="div">
-            <div class="skill_cell">
-                <img src="images/php.png" draggable="false">
-                <p>PHP</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/laravel.png" draggable="false">
-                <p>Laravel</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/js.png" style="border-radius: 100%;" draggable="false">
-                <p style="letter-spacing: 5px;">JavaScript</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/vue.png" draggable="false">
-                <p>Vue.js</p>
-            </div>
+            <a href="https://www.php.net/">
+                <div class="skill_cell" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="images/php.png" draggable="false">
+                    <p>PHP</p>
+                </div>
+            </a>
+            <a href="https://laravel.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/laravel.png" draggable="false">
+                    <p>Laravel</p>
+                </div>
+            </a>
+            <a href="https://pl.wikipedia.org/wiki/JavaScript">
+                <div class="skill_cell" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="images/js.png" style="border-radius: 100%;" draggable="false">
+                    <p style="letter-spacing: 5px;">JavaScript</p>
+                </div>
+            </a>
+            <a href="https://vuejs.org/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/vue.png" draggable="false">
+                    <p>Vue.js</p>
+                </div>
+            </a>
         </div>
         <div class="div">
-            <div class="skill_cell">
-                <img src="images/mysql.png" draggable="false">
-                <p>MySQL</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/postgresql.webp" draggable="false">
-                <p style="letter-spacing: 4px;">PostgreSQL</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/redis.png" draggable="false">
-                <p>Redis</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/docker.png" draggable="false">
-                <p>Docker</p>
-            </div>
+            <a href="https://www.mysql.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/mysql.png" draggable="false">
+                    <p>MySQL</p>
+                </div>
+            </a>
+            <a href="https://www.postgresql.org/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/postgresql.webp" draggable="false">
+                    <p style="letter-spacing: 4px;">PostgreSQL</p>
+                </div>
+            </a>
+            <a href="https://redis.io/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/redis.png" draggable="false">
+                    <p>Redis</p>
+                </div>
+            </a>
+            <a href="https://www.docker.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/docker.png" draggable="false">
+                    <p>Docker</p>
+                </div>
+            </a>
         </div>
         <div class="div" style="width: 750px;">
-            <div class="skill_cell">
-                <img src="images/git.png" draggable="false">
-                <p>Git</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/postman.png" draggable="false">
-                <p>Postman</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/figma.png" style="width: 200px;" draggable="false">
-                <p>Figma</p>
-            </div>
+            <a href="https://git-scm.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/git.png" draggable="false">
+                    <p>Git</p>
+                </div>
+            </a>
+            <a href="https://www.postman.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/postman.png" draggable="false">
+                    <p>Postman</p>
+                </div>
+            </a>
+            <a href="https://www.figma.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/figma.png" style="width: 200px;" draggable="false">
+                    <p>Figma</p>
+                </div>
+            </a>
         </div>
         <div class="div" style="width: 480px;">
-            <div class="skill_cell">
-                <img src="images/tailwind.png" style="height: 100px; margin-top: 45px; margin-bottom: 25px;" draggable="false">
-                <p>Tailwind</p>
-            </div>
-            <div class="skill_cell">
-                <img src="images/bootstrap.png" style="border-radius: 100%;" draggable="false">
-                <p>Bootstrap</p>
-            </div>
+            <a href="https://tailwindcss.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/tailwind.png" style="height: 100px; margin-top: 45px; margin-bottom: 25px;" draggable="false">
+                    <p>Tailwind</p>
+                </div>
+            </a>
+            <a href="https://getbootstrap.com/" data-aos="fade-up" data-aos-duration="1000">
+                <div class="skill_cell">
+                    <img src="images/bootstrap.png" style="border-radius: 100%;" draggable="false">
+                    <p>Bootstrap</p>
+                </div>
+            </a>
         </div>
     </div>
     <div class="projects">
         <h1>PROJECTS</h1>
 
-        <div class="pdiv">
+        <div class="pdiv" data-aos="fade-up" data-aos-duration="1000">
 
-            <div class="project_cell" style="background-image: url('images/dynamitowy.png')"></div>
-            <div class="project_cell" style="background-image: url('images/englishtime.png')"></div>
-            <div class="project_cell" style="background-image: url('images/inprogress.png')"></div>
+            <div class="project_cell" style="background-image: url('images/dynamitowy.png')">
+                <div class="project_cell_info">
+                
+                    <h5 style="font-size: 28px; font-weight: 300; color: #FFB341;">Dynamitowy</h5>
+                    <div style="width: 80%; margin: 0 auto; margin-top: 5px;">
+                        <p style="color: white;">Presenting an innovative electronic journal tailored for high school students, providing a streamlined platform for academic engagement and progress tracking.</p>
+                    </div>
+                    <a href="" style="color: #2F2F32;">
+                        <div style="background-color: #FFB341; display: inline-block; padding: 5px 10px; border-radius: 10px; margin-top: 15px;">See more</div>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="project_cell" style="background-image: url('images/englishtime.png')">
+                <div class="project_cell_info">
+                
+                    <h5 style="font-size: 28px; font-weight: 300; color: #FFB341;">EnglishTime</h5>
+                    <div style="width: 80%; margin: 0 auto; margin-top: 5px;">
+                        <p style="color: white;">Empower your students to effortlessly create and customize English language courses while providing a platform for seamless learning.</p>
+                    </div>
+                    <a href="" style="color: #2F2F32;">
+                        <div style="background-color: #FFB341; display: inline-block; padding: 5px 10px; border-radius: 10px; margin-top: 15px;">See more</div>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="project_cell" style="background-image: url('images/inprogress.png')">
+                <div class="project_cell_info">
+                
+                    <h5 style="font-size: 28px; font-weight: 300; color: #FFB341;">In progres...</h5>
+                    
+                </div>
+            </div>
 
         </div>
         
@@ -138,5 +198,11 @@
         </div>
 
     </div>
+    <div class="thanks">
+        <h1>THANKS FOR SCROLLING :)</h1>
+    </div>
 </body>
 </html>
+<script>
+    AOS.init();
+</script>
